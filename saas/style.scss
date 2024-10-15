@@ -1,0 +1,16 @@
+@mixin shared-styles {
+    background-color: rgb(35, 110, 209);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px
+}
+
+.div1 {
+    @include shared-styles;  
+}
+
+.div2 {
+    @include shared-styles;   
+    
+}
